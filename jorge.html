@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SND - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="egos.html">
+    <link rel="stylesheet" href="jorgecss.css">
+    
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Welcome to SND</h2>
+            <p>Please login to your account</p>
+        </div>
+        
+        <form id="loginForm" class="login-form">
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            
+            <div class="options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            
+            <div id="error-message" style="color: red; margin-bottom: 15px;"></div>
+            
+            <button type="submit" class="login-btn">Login</button>
+            
+            <div class="divider">or continue with</div>
+            
+            <div class="social-login">
+                <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-btn google"><i class="fab fa-google"></i></a>
+            </div>
+            
+            <div class="signup-link">
+                Don't have an account? <a href="#">Sign up</a>
+            </div>
+        </form>
+        
+        <div class="snd-brand">
+            <img src="C:\Users\User\Music\images (4).jfif" alt="SND Logo">
+            <p>Sultan Naga Dimaporo - Where Future and Tradition Collide</p>
+        </div>
+    </div>
+ <script src="jorgejs.js"></script>
+</body>
+</html>
